@@ -34,8 +34,8 @@
 
 .signup{
     position: Center;
-    height: 800px;
-    width: 800px;
+    height: 300px;
+    width: 1450px;
     text-align: center;
 }
 
@@ -92,5 +92,11 @@ article, section{
     background-color: lightgrey;
     overflow: hidden;
   }
-  
 
+  .fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+  }
