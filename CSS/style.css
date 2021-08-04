@@ -1,6 +1,7 @@
 .topnav {
-    background-color: lightgrey;
+    background-color: white;
     overflow: hidden;
+    text-align: right;
   }
   ul {list-style-type: none}
 
@@ -13,10 +14,10 @@
   .topnav a {
     float: left;
     color: darkslategrey;
-    text-align: center;
+    text-align: right;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 30px;
   }
   
   
@@ -31,11 +32,19 @@
     color: white;
   }
 
+.signup{
+    position: Center;
+    height: 800px;
+    width: 800px;
+    text-align: center;
+}
+
 
 h1 {
     font-family: 'Alfa Slab One', cursive;
     font-size: 200px;
     color: teal;
+    text-align: center;
 }
 h2 {
     font-family: 'Alfa Slab One', bold;
@@ -76,10 +85,12 @@ article, section{
 }
   
   footer { 
-    left: 50%;
+    text-align: center;
     clear: both;
-    color: green;
+    color: darkslategray;
     font-size: small;
+    background-color: lightgrey;
+    overflow: hidden;
   }
   
 
