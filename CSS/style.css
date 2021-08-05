@@ -22,13 +22,13 @@
   
   
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: white;
     color: yellowgreen;
   }
   
   
   .topnav a.active {
-    background-color: teal;
+    background-color: lightgray;
     color: white;
   }
 
@@ -42,9 +42,17 @@
 
 h1 {
     font-family: 'Alfa Slab One', cursive;
-    font-size: 200px;
+    font-size: 170px;
     color: teal;
     text-align: center;
+    margin: 0;
+    opacity: 85%;
+}
+#soundwave {
+  image-orientation: center;
+  height: 80px;
+  width: 100%;
+  margin: 0;
 }
 h2 {
     font-family: 'Alfa Slab One', bold;
@@ -53,30 +61,40 @@ h2 {
 }
 p {
     font-family: 'Gowun Batang', serif;
-    font-size: medium;
+    font-size: large;
 }
 
 article, section{
     background-color: lightgray;
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 650px;
+    opacity: 100%;
+    margin: 0;
+    padding: 0;
   }
   
   aside {
     float: right;
-    height: 200px;
-    width: 200px;
-    padding: 20px;
-    margin: 20px;
+    height: 400px;
+    width: 400px;
+    padding: 0px;
+    margin: 0;
     font-style: bold;
-    background-color: greenyellow;
+    background-color: white;
+    opacity: 100%;
+  }
+
+  aside1 {
+    background-color: lightgray;
+    height: 400px;
+    width: 650px;
   }
 
   .column {
     float: left;
     width: 47%;
     padding: 20px;
-    height: 300px;
+    height: 400px;
 }
 .row:after {
     clear: both;
