@@ -5,15 +5,15 @@
   }
   ul {list-style-type: none}
 
-  .img source {
+  /* .img source {
     float: left;
     background-color: teal;
     clear: left;
-}
+} */
  
   .topnav a {
     float: left;
-    color: darkslategrey;
+    color: black;
     text-align: right;
     padding: 14px 16px;
     text-decoration: none;
@@ -65,7 +65,7 @@ p {
 }
 
 article, section{
-    background-color: lightgray;
+    background-color: yellowgreen;
     height: 400px;
     width: 650px;
     opacity: 100%;
@@ -82,12 +82,6 @@ article, section{
     font-style: bold;
     background-color: white;
     opacity: 100%;
-  }
-
-  aside1 {
-    background-color: lightgray;
-    height: 400px;
-    width: 650px;
   }
 
   .column {
