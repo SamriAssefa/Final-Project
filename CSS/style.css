@@ -4,12 +4,6 @@
     text-align: right;
   }
   ul {list-style-type: none}
-
-  /* .img source {
-    float: left;
-    background-color: teal;
-    clear: left;
-} */
  
   .topnav a {
     float: left;
@@ -46,7 +40,7 @@ h1 {
     color: teal;
     text-align: center;
     margin: 0;
-    opacity: 85%;
+    opacity: 100%;
 }
 #soundwave {
   image-orientation: center;
@@ -89,11 +83,6 @@ article, section{
     width: 47%;
     padding: 20px;
     height: 400px;
-}
-.row:after {
-    clear: both;
-    color: orangered;
-    font-size: 24;
 }
   
   footer { 
