@@ -14,12 +14,10 @@
     font-size: 30px;
   }
   
-  
   .topnav a:hover {
     background-color: white;
     color: yellowgreen;
   }
-  
   
   .topnav a.active {
     background-color: lightgray;
@@ -32,7 +30,6 @@
     width: 1450px;
     text-align: center;
 }
-
 
 h1 {
     font-family: 'Alfa Slab One', cursive;
